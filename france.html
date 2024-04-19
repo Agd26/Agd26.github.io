@@ -6,14 +6,21 @@ Directory structure:
 - paris.png
 - css/
   - styles.css
+- js/
+  - script.js
 -->
 <html lang="en">
 <head>
+    <title>Background Image Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>France Fact Sheet</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -34,14 +41,33 @@ Directory structure:
     <main>
         <article>
             <section id="introduction">
-                <h2><strong>Introduction</strong></h2>
+                <strong>Introduction</strong></h2>
                 <table>
                     <tbody>
                         <tr>
                             <td><strong>Overview:</strong></td>
                             <td>France today is one of the most modern countries in the world and is a leader among European nations. It plays an influential global role as a permanent member of the United Nations Security Council, NATO, the G-7, the G-20, the EU, and other multilateral organizations. France rejoined NATO's integrated military command structure in 2009, reversing DE GAULLE's 1966 decision to withdraw French forces from NATO.</td>
                         </tr>
-                        <!-- Other rows omitted for brevity -->
+                        <tr>
+                            <td><strong>Political Systems:</strong></td>
+                            <td>Since 1958, France has constructed a hybrid presidential-parliamentary governing system resistant to the instabilities experienced in earlier, more purely parliamentary administrations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Economic Integration:</strong></td>
+                            <td>In recent decades, France's reconciliation and cooperation with Germany have proved central to the economic integration of Europe, including the introduction of a common currency, the euro, in January 1999.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Overseas Entities:</strong></td>
+                            <td>In the early 21st century, five French overseas entities - French Guiana, Guadeloupe, Martinique, Mayotte, and Reunion - became French regions and were made part of France proper.</td>
+                        </tr>
+                        <tr>
+                            <td>Image</td>
+                            <td><img src="france.png" alt="map of France"></td>
+                        </tr>
+                        <tr>
+                            <td>Image Source</td>
+                            <td>CIA World Factbook</td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -51,18 +77,71 @@ Directory structure:
                 <table>
                     <tbody>
                         <tr>
-                            <td>Metropolitan France: Western Europe, bordering the Bay of Biscay and English Channel, between Belgium and Spain, southeast of the UK; bordering the Mediterranean Sea, between Italy and Spain</td>
+                    Metropolitan France: Western Europe, bordering the Bay of Biscay and English Channel, between Belgium and Spain, southeast of the UK; bordering the Mediterranean Sea, between Italy and Spain</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Climate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>France:</td>
+                            <td>Generally cool winters and mild summers, but mild winters and hot summers along the Mediterranean; occasional strong, cold, dry, north-to-northwesterly wind</td>
+                        </tr>
+                    </tbody>
+                </table>
+            
+                <h3><strong>Geography</strong></h3>
+                <p>Metropolitan France: coal, iron ore, bauxite, zinc, and, uranium</p>
+            </section>
+            
+            <section id="people-society">
+                <strong>People and Society</strong></h2>
+            
+                <h3>Nationality:</h3>
+                <table>
+                    <tr>
+                
+                <td>Frenchman(men), Frenchwoman(women)</td>
+                    </tr>
+                </table>
+            
+                <strong>Ethnic groups</strong></h3>
+                <table>
+                    <tr>
+                        <td>Celtic and Latin with Teutonic, Slavic, North African (Algerian, Moroccan, Tunisian), Indochinese, and Basque minorities</td>
+                </table>
+            
+                <strong>Language</strong></h3>
+                <table>
+                    <tr>
+                        <td>French (official) 100%, declining regional dialects and languages (Provencal, Breton, Alsatian, Corsican, Catalan, Basque, Flemish, Occitan, Picard); note - overseas departments: French, Creole patois, Mahorian (a Swahili dialect)</td>
+                    </tr>
+                </table>
+            </section>
+                
+            <section id="government">
+                <strong>Government</strong></h2>
+                <table>
+                    <tbody>
+                        <tr> Type: semi-preseidential republic</tr>
+                            <td> Capital: Paris<br>For more information, visit:
+                                <a href="https://en.wikipedia.org/wiki/Paris" target="_blank"><img src="paris.png" alt="Paris" title="Click here for more information about Paris"></a><br>
+Image source: Wikipedia
+                                <br>Geographic coordinates: 48 52 N, 2 20 E<br>Time difference: UTC+1 (6 hours ahead of Washington, DC, during Standard Time)<br>Daylight saving time: +1hr, begins last Sunday in March; ends last Sunday in October<br>Time zone: CET (Central European Time)</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
-
-            <!-- Other sections omitted for brevity -->
         </article> 
 
         <footer>
             <p>&copy; 2024 Alexandra Dominguez. All rights reserved.</p>
-            <p>Contact: Agd31@miami.edu</p>
+            <p>Contact: Agd31@miami.edu/p>
             <nav>
                 <ul>
                     <li><a href="#top">Back to Top</a></li>
