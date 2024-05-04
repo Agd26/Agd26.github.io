@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Default font for the body */
+  }
+  
+  .heading {
+    font-family: 'Open Sans', sans-serif; /* Font for headings */
+  }
+  
+  .content {
+    font-family: 'Roboto', sans-serif; /* Font for content */
+  }
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px); 
+    gap: 11px;
+}
+a:unvisited {
+    color: rgb(87, 84, 192) 
+  }
+  a:visited  {
+    color: rgb(87, 84, 192) 
+  }
+  a:hover  {
+    color: rgb(87, 84, 192) 
+  }
+  a:active  {
+    color: rgb(87, 84, 192)
+  }
+main {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: Roboto, sans-serif,open sans;
+    font-size: 16px;
+    line-height: 1.5;
+    word-spacing: 0; 
+}
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(87, 84, 192)
+}
+
+.container {
+    max-width: 60ch; /* Limit width to 60 characters */
+}
+
+p {
+    margin-bottom: 0px;
+}
